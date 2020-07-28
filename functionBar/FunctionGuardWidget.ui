@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FunctionGuardWidget</class>
+ <widget class="QWidget" name="FunctionGuardWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>130</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label_normal">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>120</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;
+font: bold 13px &quot;微软雅黑&quot;;
+padding-left: 15px;</string>
+   </property>
+   <property name="text">
+    <string>DIRECTOR</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="proposalBtn">
+   <property name="geometry">
+    <rect>
+     <x>18</x>
+     <y>230</y>
+     <width>112</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string> 提案 </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_normal_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>160</y>
+     <width>120</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;
+font: bold 14px &quot;微软雅黑&quot;;
+padding-left: 15px;</string>
+   </property>
+   <property name="text">
+    <string>提案</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="accountInfoBtn">
+   <property name="geometry">
+    <rect>
+     <x>18</x>
+     <y>70</y>
+     <width>112</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>账户信息</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="myIncomeBtn">
+   <property name="geometry">
+    <rect>
+     <x>18</x>
+     <y>100</y>
+     <width>112</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>我的收益</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="feedPriceBtn">
+   <property name="geometry">
+    <rect>
+     <x>18</x>
+     <y>260</y>
+     <width>112</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>市场喂价</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="issueAssetBtn">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>112</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>发行资产</string>
+   </property>
+  </widget>
+  <zorder>label_normal_2</zorder>
+  <zorder>label_normal</zorder>
+  <zorder>proposalBtn</zorder>
+  <zorder>accountInfoBtn</zorder>
+  <zorder>myIncomeBtn</zorder>
+  <zorder>feedPriceBtn</zorder>
+  <zorder>issueAssetBtn</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
