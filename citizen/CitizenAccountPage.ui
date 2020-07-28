@@ -35,7 +35,7 @@
     <string notr="true"/>
    </property>
    <property name="text">
-    <string>Senator账户信息</string>
+    <string>Miner账户信息</string>
    </property>
   </widget>
   <widget class="QLabel" name="label">
@@ -61,7 +61,7 @@
 font: 11px &quot;Microsoft YaHei UI Light&quot;;}</string>
    </property>
    <property name="text">
-    <string>当前Senator账号</string>
+    <string>当前Miner账号</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -113,7 +113,7 @@ font: 11px &quot;Microsoft YaHei UI Light&quot;;}</string>
 font: 11px &quot;Microsoft YaHei UI Light&quot;;}</string>
    </property>
    <property name="text">
-    <string>SENATOR ID</string>
+    <string>MINER ID</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -268,7 +268,7 @@ font: 11px &quot;Microsoft YaHei UI Light&quot;;}</string>
     <string notr="true"/>
    </property>
    <property name="text">
-    <string>创建新Senator</string>
+    <string>创建新Miner</string>
    </property>
   </widget>
   <widget class="QLabel" name="idLabel2_2">

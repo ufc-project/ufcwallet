@@ -998,7 +998,7 @@ void HXChain::parseTransaction(QString result)
         transactionDB.addAccountTransactionId(addr, typeId);
     }
         break;
-    case TRANSACTION_TYPE_CREATE_SENATOR:
+    case TRANSACTION_TYPE_CREATE_MINER:
     {
         // 成为citizen
         QString addr = operationObject.take("miner_address").toString();

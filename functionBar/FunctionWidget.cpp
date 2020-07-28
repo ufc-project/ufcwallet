@@ -1,4 +1,4 @@
-#include "FunctionWidget.h"
+﻿#include "FunctionWidget.h"
 #include "ui_FunctionWidget.h"
 
 #include <QMenu>
@@ -311,11 +311,11 @@ void FunctionWidget::InitWidget()
 //    ui->toolButton_more->installEventFilter(this);
 
     //设置tooltip
-//    ui->toolButton_account->setToolTip(tr("ACCOUNT"));
+    ui->toolButton_account->setToolTip(tr("ACCOUNT"));
     ui->toolButton_exchange->setToolTip(tr("EXCHANGE"));
     ui->toolButton_contact->setToolTip(tr("CONTACT"));
     ui->toolButton_advanced->setToolTip(tr("ADVANCED"));
-    ui->toolButton_citizen->setToolTip(tr("SENATOR"));
+    ui->toolButton_citizen->setToolTip(tr("MINER"));
     ui->toolButton_guard->setToolTip(tr("DIRECTOR"));
     ui->toolButton_more->setToolTip(tr("SETTINGS"));
 

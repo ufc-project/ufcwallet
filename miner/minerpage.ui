@@ -183,7 +183,7 @@
      </attribute>
      <column>
       <property name="text">
-       <string>来自SENATOR</string>
+       <string>来自MINER</string>
       </property>
       <property name="font">
        <font>
@@ -291,7 +291,7 @@
      </attribute>
      <column>
       <property name="text">
-       <string>投票SENATOR账户</string>
+       <string>投票MINER账户</string>
       </property>
       <property name="font">
        <font>
@@ -566,7 +566,7 @@
      </attribute>
      <column>
       <property name="text">
-       <string>SENATOR</string>
+       <string>MINER</string>
       </property>
       <property name="font">
        <font>
@@ -809,7 +809,7 @@
     <rect>
      <x>370</x>
      <y>90</y>
-     <width>90</width>
+     <width>111</width>
      <height>18</height>
     </rect>
    </property>
@@ -832,7 +832,7 @@
     <string notr="true"/>
    </property>
    <property name="text">
-    <string>SENATOR信息</string>
+    <string>MINER信息</string>
    </property>
   </widget>
   <widget class="QComboBox" name="sortTypeComboBox">

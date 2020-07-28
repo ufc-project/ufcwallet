@@ -1,4 +1,4 @@
-#include "CitizenAccountPage.h"
+﻿#include "CitizenAccountPage.h"
 #include "ui_CitizenAccountPage.h"
 
 #include "wallet.h"
@@ -37,6 +37,7 @@ CitizenAccountPage::CitizenAccountPage(QWidget *parent) :
     ui->newCitizenBtn->setStyleSheet(TOOLBUTTON_STYLE_1);
     ui->startMineBtn->setStyleSheet(TOOLBUTTON_STYLE_1);
     ui->changeFeeBtn->setStyleSheet(TOOLBUTTON_STYLE_1);
+    ui->changeFeeBtn->hide();
 
     HXChain::getInstance()->mainFrame->installBlurEffect(ui->lockBalanceTableWidget);
 
@@ -76,11 +77,10 @@ void CitizenAccountPage::init()
         ui->idLabel->hide();
         ui->idLabel2->hide();
         ui->startMineBtn->hide();
-        ui->changeFeeBtn->hide();
 
         QLabel* label = new QLabel(this);
         label->setGeometry(QRect(ui->label->pos(), QSize(300,30)));
-        label->setText(tr("There are no senator accounts in the wallet."));
+        label->setText(tr("There are no miner accounts in the wallet."));
         label->setStyleSheet("QLabel{color: rgb(137,129,161);font: 11px \"Microsoft YaHei UI Light\";}");
     }
 
@@ -118,7 +118,7 @@ void CitizenAccountPage::jsonDataUpdated(QString id)
             HXChain::getInstance()->witnessConfig->save();
 
             CommonDialog commonDialog(CommonDialog::OkOnly);
-            commonDialog.setText(tr("Mining configuration has been written. This senator account will start mining when the wallet is launched next time."));
+            commonDialog.setText(tr("Mining configuration has been written. This miner account will start mining when the wallet is launched next time."));
             commonDialog.pop();
         }
     }
@@ -183,12 +183,12 @@ void CitizenAccountPage::on_accountComboBox_currentIndexChanged(const QString &a
         {
             ui->startMineBtn->show();
         }
-        ui->changeFeeBtn->show();
+//        ui->changeFeeBtn->show();
     }
     else
     {
         ui->startMineBtn->hide();
-        ui->changeFeeBtn->hide();
+//        ui->changeFeeBtn->hide();
     }
 
     showLockBalance();
@@ -203,7 +203,7 @@ void CitizenAccountPage::on_newCitizenBtn_clicked()
 void CitizenAccountPage::on_startMineBtn_clicked()
 {
     CommonDialog commonDialog(CommonDialog::OkAndCancel);
-    commonDialog.setText(tr("Sure to open the mining function of this senator account?"));
+    commonDialog.setText(tr("Sure to open the mining function of this miner account?"));
     if(commonDialog.pop())
     {
         HXChain::getInstance()->postRPC( "CitizenAccountPage+dump_private_key+" + ui->accountComboBox->currentText(),

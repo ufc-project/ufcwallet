@@ -1,4 +1,4 @@
-#ifndef TRANSACTIONTYPE_H
+﻿#ifndef TRANSACTIONTYPE_H
 #define TRANSACTIONTYPE_H
 
 // 不同类型交易对应的operation类型
@@ -10,7 +10,7 @@
 #define TRANSACTION_TYPE_UPDATE_ASSET_PK        12888      // guard更新冷热钱包多签地址私钥
 #define TRANSACTION_TYPE_ISSUE_ASSET            14      // 增发资产
 #define TRANSACTION_TYPE_FEED_PRICE             20      // 喂价
-#define TRANSACTION_TYPE_CREATE_SENATOR           21      // 成为citizen
+#define TRANSACTION_TYPE_CREATE_MINER           21      // 成为citizen
 #define TRANSACTION_TYPE_SPONSOR_PROPOSAL       23      // 发起提案
 #define TRANSACTION_TYPE_PROPOSAL_APPROVE       24      // 提案投票
 #define TRANSACTION_TYPE_CREATE_DIRECTOR           30      // 创建senator

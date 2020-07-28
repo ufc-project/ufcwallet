@@ -1,4 +1,4 @@
-#include "GuardIncomePage.h"
+﻿#include "GuardIncomePage.h"
 #include "ui_GuardIncomePage.h"
 
 #include "ToolButtonWidget.h"
@@ -127,7 +127,7 @@ void GuardIncomePage::jsonDataUpdated(QString id)
             if(result.contains("p_back.second.amount >= min_payback_balance"))
             {
                 errorResultDialog.setInfoText(tr("This account's mining income is less than %1 %2 ! You can not get it.")
-                                              .arg(500).arg(ASSET_NAME));
+                                              .arg(0.5).arg(ASSET_NAME));
             }
             else
             {

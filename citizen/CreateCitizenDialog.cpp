@@ -1,4 +1,4 @@
-#include "CreateCitizenDialog.h"
+﻿#include "CreateCitizenDialog.h"
 #include "ui_CreateCitizenDialog.h"
 
 #include "wallet.h"
@@ -104,7 +104,7 @@ void CreateCitizenDialog::jsonDataUpdated(QString id)
             HXChain::getInstance()->fetchMiners();
 
             TransactionResultDialog transactionResultDialog;
-            transactionResultDialog.setInfoText(tr("Transaction of create-senator has been sent out!"));
+            transactionResultDialog.setInfoText(tr("Transaction of create-miner has been sent out!"));
             transactionResultDialog.setDetailText(result);
             transactionResultDialog.pop();
         }

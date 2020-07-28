@@ -1,5 +1,5 @@
-#ifndef LOCKTOSENATORDIALOG_H
-#define LOCKTOSENATORDIALOG_H
+﻿#ifndef LOCKTOMINERDIALOG_H
+#define LOCKTOMINERDIALOG_H
 
 #include <QDialog>
 
@@ -40,4 +40,4 @@ private:
     Ui::LockToMinerDialog *ui;
 };
 
-#endif // LOCKTOSENATORDIALOG_H
+#endif // LOCKTOMINERDIALOG_H

@@ -1,4 +1,4 @@
-#include "locktominerdialog.h"
+﻿#include "locktominerdialog.h"
 #include "ui_locktominerdialog.h"
 
 #include "wallet.h"
@@ -84,14 +84,14 @@ void LockToMinerDialog::jsonDataUpdated(QString id)
             close();
 
             TransactionResultDialog transactionResultDialog;
-            transactionResultDialog.setInfoText(tr("Transaction of lock-to-senator has been sent out!"));
+            transactionResultDialog.setInfoText(tr("Transaction of lock-to-miner has been sent out!"));
             transactionResultDialog.setDetailText(result);
             transactionResultDialog.pop();
         }
         else if(result.startsWith("\"error\":"))
         {
             ErrorResultDialog errorResultDialog;
-            errorResultDialog.setInfoText(tr("Fail to lock balance to senator!"));
+            errorResultDialog.setInfoText(tr("Fail to lock balance to miner!"));
             errorResultDialog.setDetailText(result);
             errorResultDialog.pop();
         }

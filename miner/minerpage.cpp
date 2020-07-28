@@ -118,7 +118,7 @@ MinerPage::MinerPage(QWidget *parent) :
     blankWidget_record = new BlankDefaultWidget(ui->incomeRecordTableWidget);
     blankWidget_record->setTextTip(tr("There's no income record!"));
     blankWidget_citizen = new BlankDefaultWidget(ui->citizenInfoTableWidget);
-    blankWidget_citizen->setTextTip(tr("There's no senator!"));
+    blankWidget_citizen->setTextTip(tr("There's no miner!"));
 
     HXChain::getInstance()->mainFrame->installBlurEffect(ui->incomeRecordTableWidget);
     HXChain::getInstance()->mainFrame->installBlurEffect(ui->incomeTableWidget);
@@ -244,7 +244,7 @@ void MinerPage::jsonDataUpdated(QString id)
         else
         {
             ErrorResultDialog errorResultDialog;
-            errorResultDialog.setInfoText(tr("Fail to foreclose asset from senator!"));
+            errorResultDialog.setInfoText(tr("Fail to foreclose asset from miner!"));
             errorResultDialog.setDetailText(result);
             errorResultDialog.pop();
         }
@@ -338,7 +338,7 @@ void MinerPage::jsonDataUpdated(QString id)
             if(result.contains("p_back.second.amount >= min_payback_balance"))
             {
                 errorResultDialog.setInfoText(tr("This account's mining income is less than %1 %2 ! You can not get it.")
-                                              .arg(500).arg(ASSET_NAME));
+                                              .arg(0.5).arg(ASSET_NAME));
             }
             else
             {
@@ -373,7 +373,7 @@ void MinerPage::jsonDataUpdated(QString id)
         else
         {
             ErrorResultDialog errorResultDialog;
-            errorResultDialog.setInfoText(tr("Fail to foreclose asset from senator!"));
+            errorResultDialog.setInfoText(tr("Fail to foreclose asset from miner!"));
             errorResultDialog.setDetailText(result);
             errorResultDialog.pop();
         }
@@ -1108,7 +1108,7 @@ void MinerPage::on_obtainAllBtn_clicked()
         if( i >= 99)
         {
             CommonDialog commonDialog(CommonDialog::OkOnly);
-            commonDialog.setText(tr("You can obtain income from at most 100 senators at one time!"));
+            commonDialog.setText(tr("You can obtain income from at most 100 miners at one time!"));
             commonDialog.pop();
         }
     }
@@ -1163,7 +1163,7 @@ void MinerPage::on_forecloseAllBtn_clicked()
         if(count >= 100)
         {
             CommonDialog commonDialog(CommonDialog::OkOnly);
-            commonDialog.setText(tr("You can foreclose assets from at most 100 senators at one time!"));
+            commonDialog.setText(tr("You can foreclose assets from at most 100 miners at one time!"));
             commonDialog.pop();
         }
     }
@@ -1192,15 +1192,12 @@ QString MinerPage::getCitizenTooltip(const QString &citizenName)
 //    modifyStringLength(weight,lastBl,true);
 
 
-    QString nameTi = tr("Senator:");
+    QString nameTi = tr("Miner:");
     QString feeTi = tr("Fee:");
     QString weightTi = tr("Weight:");
     QString lastBlTi = tr("LastProduce:");
     QString missTi = tr("Missed:");
     QString totalTi = tr("Total:");
-//    modifyStringLength(nameTi,totalTi,false);
-//    modifyStringLength(feeTi,missTi,false);
-//    modifyStringLength(weightTi,lastBlTi,false);
 
 
     QString tipTemplate = "%1%2     %3%4\n%5%6    %7%8\n%9%10    %11%12";

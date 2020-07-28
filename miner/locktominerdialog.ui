@@ -157,7 +157,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>投票Senator</string>
+      <string>投票Miner</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>

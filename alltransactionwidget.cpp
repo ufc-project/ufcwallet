@@ -1,4 +1,4 @@
-#include "alltransactionwidget.h"
+﻿#include "alltransactionwidget.h"
 #include "ui_alltransactionwidget.h"
 
 #include "wallet.h"
@@ -324,7 +324,7 @@ void AllTransactionWidget::showTransactions()
         typeIds += HXChain::getInstance()->transactionDB.getAccountTransactionTypeIdsByType(ui->addressLabel->text(), TRANSACTION_TYPE_UPDATE_ACCOUNT);
         typeIds += HXChain::getInstance()->transactionDB.getAccountTransactionTypeIdsByType(ui->addressLabel->text(), TRANSACTION_TYPE_BIND_TUNNEL);
         typeIds += HXChain::getInstance()->transactionDB.getAccountTransactionTypeIdsByType(ui->addressLabel->text(), TRANSACTION_TYPE_UNBIND_TUNNEL);
-        typeIds += HXChain::getInstance()->transactionDB.getAccountTransactionTypeIdsByType(ui->addressLabel->text(), TRANSACTION_TYPE_CREATE_SENATOR);
+        typeIds += HXChain::getInstance()->transactionDB.getAccountTransactionTypeIdsByType(ui->addressLabel->text(), TRANSACTION_TYPE_CREATE_MINER);
         typeIds += HXChain::getInstance()->transactionDB.getAccountTransactionTypeIdsByType(ui->addressLabel->text(), TRANSACTION_TYPE_CREATE_DIRECTOR);
         typeIds += HXChain::getInstance()->transactionDB.getAccountTransactionTypeIdsByType(ui->addressLabel->text(), TRANSACTION_TYPE_CREATE_ASSET);
         typeIds += HXChain::getInstance()->transactionDB.getAccountTransactionTypeIdsByType(ui->addressLabel->text(), TRANSACTION_TYPE_DIRECTOR_LOCK_BALANCE);
@@ -506,7 +506,7 @@ void AllTransactionWidget::showTransactions()
             QString addr = operationObject.value("addr").toString();
             ui->transactionsTableWidget->setItem(i,2, new QTableWidgetItem("-"));
             ui->transactionsTableWidget->setItem(i,3, new QTableWidgetItem("-"));
-            ui->transactionsTableWidget->setItem(i,7, new QTableWidgetItem(tr("senator change mining fee")));
+            ui->transactionsTableWidget->setItem(i,7, new QTableWidgetItem(tr("miner change mining fee")));
 
             useGuaranteeOrderType = checkUseGuaranteeOrderType(addr, ui->addressLabel->text(), guaranteeOrderOwnerAddress);
         }
@@ -583,12 +583,12 @@ void AllTransactionWidget::showTransactions()
             ui->transactionsTableWidget->setItem(i,7, new QTableWidgetItem(tr("asset feed price")));
         }
             break;
-        case TRANSACTION_TYPE_CREATE_SENATOR:
+        case TRANSACTION_TYPE_CREATE_MINER:
         {
             QString minerAddress = operationObject.value("miner_address").toString();
             ui->transactionsTableWidget->setItem(i,2, new QTableWidgetItem("-"));
             ui->transactionsTableWidget->setItem(i,3, new QTableWidgetItem("-"));
-            ui->transactionsTableWidget->setItem(i,7, new QTableWidgetItem(tr("create senator")));
+            ui->transactionsTableWidget->setItem(i,7, new QTableWidgetItem(tr("create miner")));
 
             useGuaranteeOrderType = checkUseGuaranteeOrderType(minerAddress, ui->addressLabel->text(), guaranteeOrderOwnerAddress);
         }
@@ -678,7 +678,7 @@ void AllTransactionWidget::showTransactions()
             ui->transactionsTableWidget->setItem(i,3, item);
             item->setTextColor(QColor(255,0,0));
 
-            ui->transactionsTableWidget->setItem(i,7, new QTableWidgetItem(tr("lock asset to senator")));
+            ui->transactionsTableWidget->setItem(i,7, new QTableWidgetItem(tr("lock asset to miner")));
         }
             break;
         case TRANSACTION_TYPE_FORECLOSE:
@@ -694,7 +694,7 @@ void AllTransactionWidget::showTransactions()
             ui->transactionsTableWidget->setItem(i,3, item);
             item->setTextColor(QColor(0,170,0));
 
-            ui->transactionsTableWidget->setItem(i,7, new QTableWidgetItem(tr("foreclose asset from senator")));
+            ui->transactionsTableWidget->setItem(i,7, new QTableWidgetItem(tr("foreclose asset from miner")));
         }
             break;
         case TRANSACTION_TYPE_DIRECTOR_LOCK_BALANCE:
@@ -1043,7 +1043,7 @@ void AllTransactionWidget::showTransactions()
 
             ui->transactionsTableWidget->setItem(i,2, new QTableWidgetItem(str));
             ui->transactionsTableWidget->setItem(i,3, new QTableWidgetItem("-"));
-            ui->transactionsTableWidget->setItem(i,7, new QTableWidgetItem(tr("senator sponsor a proposal")));
+            ui->transactionsTableWidget->setItem(i,7, new QTableWidgetItem(tr("miner sponsor a proposal")));
         }
             break;
         default:

@@ -1,5 +1,5 @@
-#ifndef SENATORPAGE_H
-#define SENATORPAGE_H
+﻿#ifndef MINERPAGE_H
+#define MINERPAGE_H
 
 #include <QWidget>
 
@@ -89,4 +89,4 @@ private:
     PageScrollWidget *pageWidget_citizen = NULL;
 };
 
-#endif // SENATORPAGE_H
+#endif // MINERPAGE_H

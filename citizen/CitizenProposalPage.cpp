@@ -1,4 +1,4 @@
-#include "CitizenProposalPage.h"
+﻿#include "CitizenProposalPage.h"
 #include "ui_CitizenProposalPage.h"
 
 #include "wallet.h"
@@ -93,7 +93,7 @@ void CitizenProposalPage::init()
 
         QLabel* label = new QLabel(this);
         label->setGeometry(QRect(ui->label->pos(), QSize(300,30)));
-        label->setText(tr("There are no senator accounts in the wallet."));
+        label->setText(tr("There are no miner accounts in the wallet."));
         label->setStyleSheet("QLabel{color: rgb(137,129,161);font: 11px \"Microsoft YaHei UI Light\";}");
     }
 
@@ -248,16 +248,6 @@ void CitizenProposalPage::on_proposalTableWidget_cellClicked(int row, int column
 
 void CitizenProposalPage::on_changeSenatorBtn_clicked()
 {
-#ifndef TEST_WALLET
-    if(HXChain::getInstance()->walletInfo.blockHeight < 1360000 )
-    {
-        CommonDialog commonDialog(CommonDialog::OkOnly);
-        commonDialog.setText(tr("Official Senator selection will begin on 8th February,2019. Please do no initiate any selection proposal before 8th in order to keep a friendly selection process. Your understanding is much appreciated."));
-        commonDialog.pop();
-        return;
-    }
-#endif
-
     ChangeSenatorDialog dia;
     dia.exec();
 }
@@ -374,7 +364,6 @@ void CitizenProposalPage::httpReplied(QByteArray _data, int _status)
         else if(info.disapprovedKeys.contains(address))
         {
             ui->proposalTableWidget->setItem(i,5,new QTableWidgetItem(tr("not voted")));
-//            ui->proposalTableWidget->item(i,5)->setTextColor(QColor(255,0,0));
         }
         else
         {
