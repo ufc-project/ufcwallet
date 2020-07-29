@@ -345,7 +345,7 @@ void Frame::alreadyLogin()
     topLeftWidget->setGeometry(0,0,190,63);
     topLeftWidget->setStyleSheet("background:rgb(0,47,113);");
     QLabel* logoLabel = new QLabel(topLeftWidget);
-    logoLabel->setGeometry(50,14,95,35);
+    logoLabel->setGeometry(50,14,55,45);
     logoLabel->setScaledContents(true);
     logoLabel->setPixmap(QPixmap(":/ui/wallet_ui/UFC_logo.png"));
     topLeftWidget->show();

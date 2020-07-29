@@ -400,8 +400,8 @@
     </message>
     <message>
         <location filename="exchange/AddMyExchangePairsDialog.ui" line="121"/>
-        <source>FCC交易区</source>
-        <oldsource>HX交易区</oldsource>
+        <source>UFC交易区</source>
+        <oldsource>FCC交易区</oldsource>
         <translation type="unfinished">HX Market</translation>
     </message>
     <message>
@@ -706,8 +706,8 @@
     </message>
     <message>
         <location filename="alltransactionwidget.ui" line="433"/>
-        <source>手续费(FCC)</source>
-        <oldsource>手续费(HX)</oldsource>
+        <source>手续费(UFC)</source>
+        <oldsource>手续费(FCC)</oldsource>
         <translation type="unfinished">FEE(HX)</translation>
     </message>
     <message>
@@ -783,8 +783,8 @@
     </message>
     <message>
         <location filename="alltransactionwidget.cpp" line="509"/>
-        <source>senator change mining fee</source>
-        <oldsource>miner change mining fee</oldsource>
+        <source>miner change mining fee</source>
+        <oldsource>senator change mining fee</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -821,8 +821,8 @@
     </message>
     <message>
         <location filename="alltransactionwidget.cpp" line="591"/>
-        <source>create senator</source>
-        <oldsource>create miner</oldsource>
+        <source>create miner</source>
+        <oldsource>create senator</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -924,14 +924,14 @@
     </message>
     <message>
         <location filename="alltransactionwidget.cpp" line="681"/>
-        <source>lock asset to senator</source>
-        <oldsource>lock asset to miner</oldsource>
+        <source>lock asset to miner</source>
+        <oldsource>lock asset to senator</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="alltransactionwidget.cpp" line="697"/>
-        <source>foreclose asset from senator</source>
-        <oldsource>foreclose asset from miner</oldsource>
+        <source>foreclose asset from miner</source>
+        <oldsource>foreclose asset from senator</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1063,8 +1063,8 @@
     </message>
     <message>
         <location filename="alltransactionwidget.cpp" line="1046"/>
-        <source>senator sponsor a proposal</source>
-        <oldsource>miner sponsor a proposal</oldsource>
+        <source>miner sponsor a proposal</source>
+        <oldsource>senator sponsor a proposal</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1903,8 +1903,8 @@ This name will be registered in the Goopal blockchain,permanently and immutably.
     </message>
     <message>
         <location filename="citizen/ChangeSenatorDialog.ui" line="248"/>
-        <source>最少为1000FCC</source>
-        <oldsource>最少为1000HX</oldsource>
+        <source>最少为1000UFC</source>
+        <oldsource>最少为1000FCC</oldsource>
         <translation type="unfinished">1000HX At Least</translation>
     </message>
     <message>
@@ -1958,8 +1958,8 @@ This name will be registered in the Goopal blockchain,permanently and immutably.
     </message>
     <message>
         <location filename="control/CheckExchangePairWidget.ui" line="58"/>
-        <source>BTC/FCC</source>
-        <oldsource>BTC/HX</oldsource>
+        <source>BTC/UFC</source>
+        <oldsource>BTC/FCC</oldsource>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2091,21 +2091,21 @@ This name will be registered in the Goopal blockchain,permanently and immutably.
     </message>
     <message>
         <location filename="citizen/CitizenAccountPage.ui" line="38"/>
-        <source>Senator账户信息</source>
-        <oldsource>Miner账户信息</oldsource>
-        <translation type="unfinished">Senator Account Info</translation>
+        <source>Miner账户信息</source>
+        <oldsource>Senator账户信息</oldsource>
+        <translation>Miner Account Info</translation>
     </message>
     <message>
         <location filename="citizen/CitizenAccountPage.ui" line="64"/>
-        <source>当前Senator账号</source>
-        <oldsource>当前Miner账号</oldsource>
-        <translation type="unfinished">CURRENT SENATOR</translation>
+        <source>当前Miner账号</source>
+        <oldsource>当前Senator账号</oldsource>
+        <translation>Current Miner</translation>
     </message>
     <message>
         <location filename="citizen/CitizenAccountPage.ui" line="116"/>
-        <source>SENATOR ID</source>
-        <oldsource>MINER ID</oldsource>
-        <translation type="unfinished"></translation>
+        <source>MINER ID</source>
+        <oldsource>SENATOR ID</oldsource>
+        <translation></translation>
     </message>
     <message>
         <location filename="citizen/CitizenAccountPage.ui" line="219"/>
@@ -2116,50 +2116,50 @@ This name will be registered in the Goopal blockchain,permanently and immutably.
         <location filename="citizen/CitizenAccountPage.ui" line="232"/>
         <source>当前已投票金额</source>
         <oldsource>当前已质押金额</oldsource>
-        <translation type="unfinished">PLEDGE AMOUNT</translation>
+        <translation>VOTE AMOUNT</translation>
     </message>
     <message>
         <location filename="citizen/CitizenAccountPage.ui" line="271"/>
-        <source>创建新Senator</source>
-        <oldsource>创建新Miner</oldsource>
-        <translation type="unfinished">CREATE SENATOR</translation>
+        <source>创建新Miner</source>
+        <oldsource>创建新Senator</oldsource>
+        <translation>CREATE MINER</translation>
     </message>
     <message>
         <location filename="citizen/CitizenAccountPage.ui" line="297"/>
         <source>总出块数</source>
-        <translation type="unfinished">TOTAL PRODUCED</translation>
+        <translation>TOTAL PRODUCED</translation>
     </message>
     <message>
         <location filename="citizen/CitizenAccountPage.ui" line="355"/>
         <source>上次出块</source>
-        <translation type="unfinished">LAST PRODUCED</translation>
+        <translation>LAST PRODUCED</translation>
     </message>
     <message>
         <location filename="citizen/CitizenAccountPage.ui" line="417"/>
         <source>开启挖矿</source>
-        <translation type="unfinished">START MINING</translation>
+        <translation>START MINING</translation>
     </message>
     <message>
         <location filename="citizen/CitizenAccountPage.ui" line="447"/>
         <source>更改矿池手续费</source>
-        <translation type="unfinished">CHANGE FEE</translation>
+        <translation>CHANGE FEE</translation>
     </message>
     <message>
         <location filename="citizen/CitizenAccountPage.cpp" line="83"/>
-        <source>There are no senator accounts in the wallet.</source>
-        <oldsource>There are no miner accounts in the wallet.</oldsource>
+        <source>There are no miner accounts in the wallet.</source>
+        <oldsource>There are no senator accounts in the wallet.</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="citizen/CitizenAccountPage.cpp" line="121"/>
-        <source>Mining configuration has been written. This senator account will start mining when the wallet is launched next time.</source>
-        <oldsource>Mining configuration has been written. This miner account will start mining when the wallet is launched next time.</oldsource>
+        <source>Mining configuration has been written. This miner account will start mining when the wallet is launched next time.</source>
+        <oldsource>Mining configuration has been written. This senator account will start mining when the wallet is launched next time.</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="citizen/CitizenAccountPage.cpp" line="206"/>
-        <source>Sure to open the mining function of this senator account?</source>
-        <oldsource>Sure to open the mining function of this miner account?</oldsource>
+        <source>Sure to open the mining function of this miner account?</source>
+        <oldsource>Sure to open the mining function of this senator account?</oldsource>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2228,8 +2228,8 @@ This name will be registered in the Goopal blockchain,permanently and immutably.
     </message>
     <message>
         <location filename="citizen/CitizenProposalPage.cpp" line="96"/>
-        <source>There are no senator accounts in the wallet.</source>
-        <oldsource>There are no miner accounts in the wallet.</oldsource>
+        <source>There are no miner accounts in the wallet.</source>
+        <oldsource>There are no senator accounts in the wallet.</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2243,50 +2243,45 @@ This name will be registered in the Goopal blockchain,permanently and immutably.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="citizen/CitizenProposalPage.cpp" line="255"/>
-        <source>Official Senator selection will begin on 8th February,2019. Please do no initiate any selection proposal before 8th in order to keep a friendly selection process. Your understanding is much appreciated.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="citizen/CitizenProposalPage.cpp" line="346"/>
+        <location filename="citizen/CitizenProposalPage.cpp" line="336"/>
         <source>change director</source>
         <oldsource>change guard</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="citizen/CitizenProposalPage.cpp" line="350"/>
+        <location filename="citizen/CitizenProposalPage.cpp" line="340"/>
         <source>unknown</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="citizen/CitizenProposalPage.cpp" line="367"/>
+        <location filename="citizen/CitizenProposalPage.cpp" line="357"/>
         <source>no senator</source>
         <oldsource>no miner</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="citizen/CitizenProposalPage.cpp" line="371"/>
+        <location filename="citizen/CitizenProposalPage.cpp" line="361"/>
         <source>approved</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="citizen/CitizenProposalPage.cpp" line="376"/>
-        <location filename="citizen/CitizenProposalPage.cpp" line="381"/>
+        <location filename="citizen/CitizenProposalPage.cpp" line="366"/>
+        <location filename="citizen/CitizenProposalPage.cpp" line="370"/>
         <source>not voted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="citizen/CitizenProposalPage.cpp" line="393"/>
+        <location filename="citizen/CitizenProposalPage.cpp" line="382"/>
         <source>approve</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="citizen/CitizenProposalPage.cpp" line="403"/>
+        <location filename="citizen/CitizenProposalPage.cpp" line="392"/>
         <source>disapprove</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="citizen/CitizenProposalPage.cpp" line="423"/>
+        <location filename="citizen/CitizenProposalPage.cpp" line="412"/>
         <source>addPledge</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3251,8 +3246,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="citizen/CreateCitizenDialog.ui" line="259"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;已注册账户才可以成为Senator，点击&lt;/span&gt;&lt;a href=&quot;showRegisterDialog&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;注册&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;新账户&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <oldsource>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;已注册账户才可以成为Miner，点击&lt;/span&gt;&lt;a href=&quot;showRegisterDialog&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;注册&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;新账户&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</oldsource>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;已注册账户才可以成为Miner，点击&lt;/span&gt;&lt;a href=&quot;showRegisterDialog&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;注册&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;新账户&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <oldsource>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;已注册账户才可以成为Senator，点击&lt;/span&gt;&lt;a href=&quot;showRegisterDialog&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;注册&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;新账户&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</oldsource>
         <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Only a registered account can become a senator. Click to &lt;/span&gt;&lt;a href=&quot;showRegisterDialog&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;register&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; a new account.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
@@ -3267,8 +3262,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="citizen/CreateCitizenDialog.cpp" line="107"/>
-        <source>Transaction of create-senator has been sent out!</source>
-        <oldsource>Transaction of create-miner has been sent out!</oldsource>
+        <source>Transaction of create-miner has been sent out!</source>
+        <oldsource>Transaction of create-senator has been sent out!</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4107,8 +4102,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="exchange/ExchangeModePage.ui" line="466"/>
-        <source>FCC交易区</source>
-        <oldsource>HX交易区</oldsource>
+        <source>UFC交易区</source>
+        <oldsource>FCC交易区</oldsource>
         <translation type="unfinished">HX Market</translation>
     </message>
     <message>
@@ -4643,8 +4638,8 @@ Cover it or not?</source>
     </message>
     <message>
         <location filename="depositpage/FeeChargeWidget.ui" line="102"/>
-        <source>本操作需要收取固定手续费:@ FCC</source>
-        <oldsource>本操作需要收取固定手续费:@ HX</oldsource>
+        <source>本操作需要收取固定手续费:@ UFC</source>
+        <oldsource>本操作需要收取固定手续费:@ FCC</oldsource>
         <translation type="unfinished">You need to pay the fee for this operation:@ HX</translation>
     </message>
     <message>
@@ -4677,8 +4672,8 @@ Cover it or not?</source>
     </message>
     <message>
         <location filename="FeeChooseWidget.ui" line="112"/>
-        <source>20  FCC</source>
-        <oldsource>20  HX</oldsource>
+        <source>20  UFC</source>
+        <oldsource>20  FCC</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4832,7 +4827,8 @@ Cover it or not?</source>
     </message>
     <message>
         <location filename="guard/FeedPriceDialog.ui" line="323"/>
-        <source>FCC</source>
+        <source>UFC</source>
+        <oldsource>FCC</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5030,27 +5026,27 @@ Cover it or not?</source>
 <context>
     <name>Frame</name>
     <message>
-        <location filename="frame.cpp" line="1234"/>
+        <location filename="frame.cpp" line="1237"/>
         <source>Please Import Or Create Account First!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="frame.cpp" line="1449"/>
+        <location filename="frame.cpp" line="1452"/>
         <source>This wallet is newly imported. It will rescan the blockchain data when launched next time. After that the transactions of the accounts in this wallet will be shown.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="frame.cpp" line="2521"/>
+        <location filename="frame.cpp" line="2489"/>
         <source>Minimize</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="frame.cpp" line="2524"/>
+        <location filename="frame.cpp" line="2492"/>
         <source>Restore</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="frame.cpp" line="2527"/>
+        <location filename="frame.cpp" line="2495"/>
         <source>Quit</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5206,9 +5202,13 @@ Cover it or not?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="functionBar/FunctionCitizenWidget.ui" line="40"/>
         <source>SENATOR</source>
-        <translation type="unfinished">ACCOUNT</translation>
+        <translation type="obsolete">ACCOUNT</translation>
+    </message>
+    <message>
+        <location filename="functionBar/FunctionCitizenWidget.ui" line="40"/>
+        <source>MINER</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="functionBar/FunctionCitizenWidget.ui" line="61"/>
@@ -5400,6 +5400,11 @@ Cover it or not?</source>
     </message>
     <message>
         <location filename="functionBar/FunctionWidget.cpp" line="318"/>
+        <source>MINER</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="functionBar/FunctionWidget.ui" line="285"/>
         <source>SENATOR</source>
         <translation>ACCOUNT</translation>
     </message>
@@ -5662,7 +5667,7 @@ Cover it or not?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="wallet.cpp" line="794"/>
+        <location filename="wallet.cpp" line="795"/>
         <source>You have not synchronized the latest block. The transaction you create will be outdated and not confirmed!</source>
         <oldsource>Cannot operate online transaction,please wait for block sync finished!</oldsource>
         <translation type="unfinished"></translation>
@@ -5834,15 +5839,8 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="importdialog.cpp" line="150"/>
-        <source>FCC Address:%1  Already Exists!</source>
-        <oldsource>HX Address:%1  Already Exists!</oldsource>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="importdialog.cpp" line="187"/>
-        <source>Wrong FCC private key!</source>
-        <oldsource>Wrong HX private key!</oldsource>
+        <source>Wrong </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6407,8 +6405,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="miner/locktominerdialog.ui" line="160"/>
-        <source>投票Senator</source>
-        <oldsource>投票Miner</oldsource>
+        <source>投票Miner</source>
+        <oldsource>投票Senator</oldsource>
         <translation type="unfinished">Senator</translation>
     </message>
     <message>
@@ -6425,14 +6423,14 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="miner/locktominerdialog.cpp" line="87"/>
-        <source>Transaction of lock-to-senator has been sent out!</source>
-        <oldsource>Transaction of lock-to-miner has been sent out!</oldsource>
+        <source>Transaction of lock-to-miner has been sent out!</source>
+        <oldsource>Transaction of lock-to-senator has been sent out!</oldsource>
         <translation type="unfinished">Transaction of lock-to-senator has been sent out!</translation>
     </message>
     <message>
         <location filename="miner/locktominerdialog.cpp" line="94"/>
-        <source>Fail to lock balance to senator!</source>
-        <oldsource>Fail to lock balance to miner!</oldsource>
+        <source>Fail to lock balance to miner!</source>
+        <oldsource>Fail to lock balance to senator!</oldsource>
         <translation type="unfinished">Fail to lock balance to senator!</translation>
     </message>
     <message>
@@ -6651,9 +6649,9 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="miner/minerpage.ui" line="186"/>
-        <source>来自SENATOR</source>
-        <oldsource>来自MINER</oldsource>
-        <translation type="unfinished">FROM SENATOR</translation>
+        <source>来自MINER</source>
+        <oldsource>来自SENATOR</oldsource>
+        <translation>FROM MINER</translation>
     </message>
     <message>
         <location filename="miner/minerpage.ui" line="199"/>
@@ -6669,9 +6667,9 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="miner/minerpage.ui" line="294"/>
-        <source>投票SENATOR账户</source>
-        <oldsource>投票MINER账户</oldsource>
-        <translation type="unfinished">SENATOR VOTE FOR</translation>
+        <source>投票MINER账户</source>
+        <oldsource>投票SENATOR账户</oldsource>
+        <translation>MINER VOTE FOR</translation>
     </message>
     <message>
         <location filename="miner/minerpage.ui" line="307"/>
@@ -6706,9 +6704,8 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished">STATE</translation>
     </message>
     <message>
-        <location filename="miner/minerpage.ui" line="569"/>
         <source>SENATOR</source>
-        <translation type="unfinished">ACCOUNT</translation>
+        <translation type="obsolete">SENATOR</translation>
     </message>
     <message>
         <location filename="miner/minerpage.ui" line="582"/>
@@ -6768,14 +6765,14 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="miner/minerpage.ui" line="835"/>
-        <source>SENATOR信息</source>
-        <oldsource>MINER信息</oldsource>
-        <translation type="unfinished">SENATOR INFO</translation>
+        <source>MINER信息</source>
+        <oldsource>SENATOR信息</oldsource>
+        <translation>MINER INFO</translation>
     </message>
     <message>
         <location filename="miner/minerpage.ui" line="883"/>
         <source>按名称排序</source>
-        <translation type="unfinished">Name Raise</translation>
+        <translation>Sort By Name</translation>
     </message>
     <message>
         <location filename="miner/minerpage.ui" line="914"/>
@@ -6786,6 +6783,11 @@ p, li { white-space: pre-wrap; }
         <location filename="miner/minerpage.ui" line="863"/>
         <source>权重由高到低</source>
         <translation type="unfinished">Weight high-low</translation>
+    </message>
+    <message>
+        <location filename="miner/minerpage.ui" line="569"/>
+        <source>MINER</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="miner/minerpage.ui" line="868"/>
@@ -6835,15 +6837,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="miner/minerpage.cpp" line="121"/>
-        <source>There&apos;s no senator!</source>
-        <oldsource>There&apos;s no miner!</oldsource>
+        <source>There&apos;s no miner!</source>
+        <oldsource>There&apos;s no senator!</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="miner/minerpage.cpp" line="247"/>
         <location filename="miner/minerpage.cpp" line="376"/>
-        <source>Fail to foreclose asset from senator!</source>
-        <oldsource>Fail to foreclose asset from citizen!</oldsource>
+        <source>Fail to foreclose asset from miner!</source>
+        <oldsource>Fail to foreclose asset from senator!</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6902,24 +6904,24 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="miner/minerpage.cpp" line="1111"/>
-        <source>You can obtain income from at most 100 senators at one time!</source>
-        <oldsource>You can obtain income from at most 100 miners at one time!</oldsource>
+        <source>You can obtain income from at most 100 miners at one time!</source>
+        <oldsource>You can obtain income from at most 100 senators at one time!</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="miner/minerpage.cpp" line="1166"/>
-        <source>You can foreclose assets from at most 100 senators at one time!</source>
-        <oldsource>You can foreclose assets from at most 100 miners at one time!</oldsource>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="miner/minerpage.cpp" line="1195"/>
-        <source>Senator:</source>
+        <source>You can foreclose assets from at most 100 miners at one time!</source>
+        <oldsource>You can foreclose assets from at most 100 senators at one time!</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="miner/minerpage.cpp" line="1125"/>
         <source>Sure to foreclose all assets that you have voted?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="miner/minerpage.cpp" line="1195"/>
+        <source>Miner:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -8018,8 +8020,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="poundage/PoundageShowTableModel.cpp" line="59"/>
-        <source>可用金额(FCC)</source>
-        <oldsource>可用金额(HX)</oldsource>
+        <source>可用金额(</source>
+        <oldsource>可用金额(FCC)</oldsource>
         <translation type="unfinished">BALANCE(HX)</translation>
     </message>
     <message>
@@ -8289,8 +8291,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="guard/ProposalDetailDialog.ui" line="974"/>
-        <source>投票资产(FCC)</source>
-        <oldsource>投票资产(HX)</oldsource>
+        <source>投票资产(UFC)</source>
+        <oldsource>投票资产(FCC)</oldsource>
         <translation type="unfinished">Pledge(HX)</translation>
     </message>
     <message>
@@ -8624,14 +8626,14 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="poundage/PublishPoundageWidget.ui" line="112"/>
-        <source>20 FCC</source>
-        <oldsource>20 HX</oldsource>
+        <source>20 UFC</source>
+        <oldsource>20 FCC</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="poundage/PublishPoundageWidget.ui" line="129"/>
-        <source>FCC 数量：</source>
-        <oldsource>HX 数量：</oldsource>
+        <source>UFC 数量：</source>
+        <oldsource>FCC 数量：</oldsource>
         <translation type="unfinished">AMMOUTNT OF HX:</translation>
     </message>
     <message>
@@ -9148,7 +9150,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="setdialog.ui" line="176"/>
-        <location filename="setdialog.ui" line="737"/>
+        <location filename="setdialog.ui" line="682"/>
         <source>保存</source>
         <translation type="unfinished">Save</translation>
     </message>
@@ -9172,12 +9174,12 @@ p, li { white-space: pre-wrap; }
         <translation type="obsolete">Transaction fee</translation>
     </message>
     <message>
-        <location filename="setdialog.ui" line="813"/>
+        <location filename="setdialog.ui" line="758"/>
         <source>旧密码：</source>
         <translation type="unfinished">Old:</translation>
     </message>
     <message>
-        <location filename="setdialog.ui" line="863"/>
+        <location filename="setdialog.ui" line="808"/>
         <source>新密码：</source>
         <translation type="unfinished">New:</translation>
     </message>
@@ -9211,7 +9213,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="setdialog.ui" line="479"/>
-        <source>FCC</source>
+        <source>UFC</source>
+        <oldsource>FCC</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -9235,57 +9238,56 @@ p, li { white-space: pre-wrap; }
         <translation type="obsolete">deposited assets will transfer to multi signature address automatically!</translation>
     </message>
     <message>
-        <location filename="setdialog.ui" line="594"/>
         <source>中间件URL</source>
         <oldsource>中间件 IP:端口</oldsource>
-        <translation type="unfinished">Middleware URL</translation>
+        <translation type="obsolete">Middleware URL</translation>
     </message>
     <message>
-        <location filename="setdialog.ui" line="622"/>
+        <location filename="setdialog.ui" line="593"/>
         <source>自动备份（位于钱包配置路径）</source>
         <oldsource>自动备份</oldsource>
         <translation type="unfinished">Auto Backup Wallet(in the config path)</translation>
     </message>
     <message>
-        <location filename="setdialog.ui" line="763"/>
+        <location filename="setdialog.ui" line="708"/>
         <source>再次输入：</source>
         <translation type="unfinished">Again:</translation>
     </message>
     <message>
-        <location filename="setdialog.ui" line="934"/>
+        <location filename="setdialog.ui" line="879"/>
         <source>修改钱包密码</source>
         <translation type="unfinished">Modify the password</translation>
     </message>
     <message>
-        <location filename="setdialog.ui" line="960"/>
+        <location filename="setdialog.ui" line="905"/>
         <source>钱包数据路径：</source>
         <translation type="unfinished">Wallet Data Path</translation>
     </message>
     <message>
-        <location filename="setdialog.ui" line="1006"/>
-        <location filename="setdialog.ui" line="1037"/>
-        <location filename="setdialog.ui" line="1099"/>
+        <location filename="setdialog.ui" line="951"/>
+        <location filename="setdialog.ui" line="982"/>
+        <location filename="setdialog.ui" line="1044"/>
         <source>默认数据备份路径，请勿删除</source>
         <translation type="unfinished">Default Backup Folder,Please Don&apos;t Delete.</translation>
     </message>
     <message>
-        <location filename="setdialog.ui" line="1013"/>
+        <location filename="setdialog.ui" line="958"/>
         <source>钱包配置路径：</source>
         <translation type="unfinished">Wallet Config Path</translation>
     </message>
     <message>
-        <location filename="setdialog.ui" line="1071"/>
-        <location filename="setdialog.ui" line="1105"/>
+        <location filename="setdialog.ui" line="1016"/>
+        <location filename="setdialog.ui" line="1050"/>
         <source>打开</source>
         <translation type="unfinished">open</translation>
     </message>
     <message>
-        <location filename="setdialog.ui" line="1153"/>
+        <location filename="setdialog.ui" line="1098"/>
         <source>安全设置</source>
         <translation type="unfinished">Safety</translation>
     </message>
     <message>
-        <location filename="setdialog.ui" line="1184"/>
+        <location filename="setdialog.ui" line="1129"/>
         <source>账户管理</source>
         <translation type="unfinished">Account</translation>
     </message>
@@ -9346,25 +9348,25 @@ p, li { white-space: pre-wrap; }
         <translation type="obsolete">vote</translation>
     </message>
     <message>
-        <location filename="setdialog.cpp" line="397"/>
-        <location filename="setdialog.cpp" line="450"/>
+        <location filename="setdialog.cpp" line="387"/>
+        <location filename="setdialog.cpp" line="440"/>
         <source>at least 8 letters</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="setdialog.cpp" line="424"/>
-        <location filename="setdialog.cpp" line="449"/>
-        <location filename="setdialog.cpp" line="469"/>
+        <location filename="setdialog.cpp" line="414"/>
+        <location filename="setdialog.cpp" line="439"/>
+        <location filename="setdialog.cpp" line="459"/>
         <source>not consistent</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="setdialog.cpp" line="498"/>
+        <location filename="setdialog.cpp" line="488"/>
         <source>wrong password</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="setdialog.cpp" line="517"/>
+        <location filename="setdialog.cpp" line="507"/>
         <source>Fail to modify the password!</source>
         <oldsource>Fail to set password!</oldsource>
         <translation type="unfinished"></translation>
