@@ -13,6 +13,7 @@
   <property name="font">
    <font>
     <family>Microsoft YaHei UI Light</family>
+    <pointsize>10</pointsize>
    </font>
   </property>
   <property name="windowTitle">
@@ -75,9 +76,14 @@ font: 11px &quot;微软雅黑&quot;;</string>
     <rect>
      <x>110</x>
      <y>100</y>
-     <width>70</width>
-     <height>20</height>
+     <width>80</width>
+     <height>25</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
    </property>
    <property name="cursor">
     <cursorShape>PointingHandCursor</cursorShape>
@@ -92,11 +98,16 @@ font: 11px &quot;微软雅黑&quot;;</string>
   <widget class="QPushButton" name="typeTransferBtn">
    <property name="geometry">
     <rect>
-     <x>190</x>
+     <x>200</x>
      <y>100</y>
-     <width>70</width>
-     <height>20</height>
+     <width>80</width>
+     <height>25</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
    </property>
    <property name="cursor">
     <cursorShape>PointingHandCursor</cursorShape>
@@ -111,11 +122,16 @@ font: 11px &quot;微软雅黑&quot;;</string>
   <widget class="QPushButton" name="typeDepositBtn">
    <property name="geometry">
     <rect>
-     <x>270</x>
+     <x>290</x>
      <y>100</y>
      <width>70</width>
      <height>20</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
    </property>
    <property name="cursor">
     <cursorShape>PointingHandCursor</cursorShape>
@@ -130,11 +146,16 @@ font: 11px &quot;微软雅黑&quot;;</string>
   <widget class="QPushButton" name="typeWithdrawBtn">
    <property name="geometry">
     <rect>
-     <x>350</x>
+     <x>380</x>
      <y>100</y>
      <width>70</width>
      <height>20</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
    </property>
    <property name="cursor">
     <cursorShape>PointingHandCursor</cursorShape>
@@ -149,11 +170,16 @@ font: 11px &quot;微软雅黑&quot;;</string>
   <widget class="QPushButton" name="typeContractBtn">
    <property name="geometry">
     <rect>
-     <x>430</x>
+     <x>470</x>
      <y>100</y>
-     <width>70</width>
-     <height>20</height>
+     <width>80</width>
+     <height>25</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
    </property>
    <property name="cursor">
     <cursorShape>PointingHandCursor</cursorShape>
@@ -170,9 +196,14 @@ font: 11px &quot;微软雅黑&quot;;</string>
     <rect>
      <x>110</x>
      <y>130</y>
-     <width>70</width>
-     <height>20</height>
+     <width>80</width>
+     <height>25</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
    </property>
    <property name="cursor">
     <cursorShape>PointingHandCursor</cursorShape>
@@ -189,9 +220,14 @@ font: 11px &quot;微软雅黑&quot;;</string>
     <rect>
      <x>110</x>
      <y>160</y>
-     <width>70</width>
-     <height>20</height>
+     <width>80</width>
+     <height>25</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
    </property>
    <property name="cursor">
     <cursorShape>PointingHandCursor</cursorShape>
@@ -206,11 +242,16 @@ font: 11px &quot;微软雅黑&quot;;</string>
   <widget class="QPushButton" name="timeDayBtn">
    <property name="geometry">
     <rect>
-     <x>190</x>
+     <x>200</x>
      <y>160</y>
-     <width>70</width>
-     <height>20</height>
+     <width>80</width>
+     <height>25</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
    </property>
    <property name="cursor">
     <cursorShape>PointingHandCursor</cursorShape>
@@ -225,11 +266,16 @@ font: 11px &quot;微软雅黑&quot;;</string>
   <widget class="QPushButton" name="timeWeekBtn">
    <property name="geometry">
     <rect>
-     <x>270</x>
+     <x>290</x>
      <y>160</y>
-     <width>70</width>
-     <height>20</height>
+     <width>80</width>
+     <height>25</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
    </property>
    <property name="cursor">
     <cursorShape>PointingHandCursor</cursorShape>
@@ -244,11 +290,16 @@ font: 11px &quot;微软雅黑&quot;;</string>
   <widget class="QPushButton" name="timeMonthBtn">
    <property name="geometry">
     <rect>
-     <x>350</x>
+     <x>380</x>
      <y>160</y>
-     <width>70</width>
-     <height>20</height>
+     <width>80</width>
+     <height>25</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
    </property>
    <property name="cursor">
     <cursorShape>PointingHandCursor</cursorShape>
@@ -266,7 +317,7 @@ font: 11px &quot;微软雅黑&quot;;</string>
      <x>60</x>
      <y>200</y>
      <width>165</width>
-     <height>18</height>
+     <height>25</height>
     </rect>
    </property>
    <property name="font">
@@ -484,11 +535,16 @@ font: 11px &quot;微软雅黑&quot;;</string>
   <widget class="QPushButton" name="typeMineBtn">
    <property name="geometry">
     <rect>
-     <x>510</x>
-     <y>100</y>
-     <width>70</width>
-     <height>20</height>
+     <x>290</x>
+     <y>130</y>
+     <width>80</width>
+     <height>25</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
    </property>
    <property name="cursor">
     <cursorShape>PointingHandCursor</cursorShape>
@@ -503,11 +559,16 @@ font: 11px &quot;微软雅黑&quot;;</string>
   <widget class="QPushButton" name="typeGuaranteeBtn">
    <property name="geometry">
     <rect>
-     <x>590</x>
-     <y>100</y>
-     <width>70</width>
-     <height>20</height>
+     <x>380</x>
+     <y>130</y>
+     <width>80</width>
+     <height>25</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
    </property>
    <property name="cursor">
     <cursorShape>PointingHandCursor</cursorShape>
@@ -567,11 +628,16 @@ font: 11px &quot;微软雅黑&quot;;
   <widget class="QPushButton" name="typeFeedPriceBtn">
    <property name="geometry">
     <rect>
-     <x>270</x>
+     <x>290</x>
      <y>100</y>
-     <width>70</width>
-     <height>20</height>
+     <width>80</width>
+     <height>25</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
    </property>
    <property name="cursor">
     <cursorShape>PointingHandCursor</cursorShape>
@@ -586,11 +652,16 @@ font: 11px &quot;微软雅黑&quot;;
   <widget class="QPushButton" name="typeProposalBtn">
    <property name="geometry">
     <rect>
-     <x>350</x>
+     <x>380</x>
      <y>100</y>
-     <width>70</width>
-     <height>20</height>
+     <width>80</width>
+     <height>25</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
    </property>
    <property name="cursor">
     <cursorShape>PointingHandCursor</cursorShape>
@@ -605,11 +676,16 @@ font: 11px &quot;微软雅黑&quot;;
   <widget class="QPushButton" name="typeBonusBtn">
    <property name="geometry">
     <rect>
-     <x>190</x>
+     <x>200</x>
      <y>130</y>
-     <width>70</width>
-     <height>20</height>
+     <width>80</width>
+     <height>25</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
    </property>
    <property name="cursor">
     <cursorShape>PointingHandCursor</cursorShape>
@@ -627,8 +703,13 @@ font: 11px &quot;微软雅黑&quot;;
      <x>610</x>
      <y>200</y>
      <width>100</width>
-     <height>20</height>
+     <height>25</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
    </property>
    <property name="cursor">
     <cursorShape>PointingHandCursor</cursorShape>
