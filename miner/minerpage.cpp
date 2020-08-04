@@ -710,7 +710,7 @@ void MinerPage::showCitizenInfo()
         ui->citizenInfoTableWidget->setRowHeight(i,40);
         MinerInfo minerInfo = HXChain::getInstance()->minerMap.value(sortedKeys.at(i));
         ui->citizenInfoTableWidget->setItem(i,0, new QTableWidgetItem(sortedKeys.at(i)));
-        ui->citizenInfoTableWidget->setItem(i,1, new QTableWidgetItem( toEasyRead(minerInfo.pledgeWeight, 5, 4)));
+        ui->citizenInfoTableWidget->setItem(i,1, new QTableWidgetItem( toEasyRead(minerInfo.pledgeWeight, 8, 4)));
         ui->citizenInfoTableWidget->setItem(i,2, new QTableWidgetItem( QString::number(minerInfo.totalProduced)));
         ui->citizenInfoTableWidget->setItem(i,3, new QTableWidgetItem( QString::number(minerInfo.totalMissed)));
         ui->citizenInfoTableWidget->setItem(i,4, new QTableWidgetItem( QString::number(minerInfo.lastBlock)));
