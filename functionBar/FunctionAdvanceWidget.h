@@ -1,4 +1,4 @@
-#ifndef FUNCTIONADVANCEWIDGET_H
+﻿#ifndef FUNCTIONADVANCEWIDGET_H
 #define FUNCTIONADVANCEWIDGET_H
 
 #include <QWidget>
@@ -20,9 +20,11 @@ public slots:
 signals:
     void showPoundageSignal();
     void showMultiSigSignal();
+    void showContractTokenSignal();
 private slots:
     void PoundageShowSlots();
     void MultiSigShowSlots();
+    void ContractTokenShowSlots();
 private:
     void InitWidget();
     void InitStyle();

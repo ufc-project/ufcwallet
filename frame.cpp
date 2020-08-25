@@ -367,7 +367,7 @@ void Frame::alreadyLogin()
     connect(functionBar,&FunctionWidget::showGuardAccountSignal,this,&Frame::showGuardAccountPage);
     connect(functionBar,&FunctionWidget::showGuardIncomeSignal,this,&Frame::showGuardIncomePage);
     connect(functionBar,&FunctionWidget::showLockContractSignal,this,&Frame::showLockContractPage);
-    connect(functionBar,&FunctionWidget::showIssueAssetSignal,this,&Frame::showIssueAssetPage);
+    connect(functionBar,&FunctionWidget::showIssueAssetSignal,this,&Frame::showContractTokenPage);
     connect(functionBar,&FunctionWidget::showProposalSignal,this,&Frame::showProposalPage);
     connect(functionBar,&FunctionWidget::showFeedPriceSignal,this,&Frame::showFeedPricePage);
     connect(functionBar,&FunctionWidget::showContractTokenSignal,this,&Frame::showContractTokenPage);

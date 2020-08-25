@@ -1,4 +1,4 @@
-#include "FunctionAdvanceWidget.h"
+﻿#include "FunctionAdvanceWidget.h"
 #include "ui_FunctionAdvanceWidget.h"
 
 #include "extra/style.h"
@@ -23,20 +23,31 @@ void FunctionAdvanceWidget::retranslator()
 void FunctionAdvanceWidget::DefaultShow()
 {
 //    PoundageShowSlots();
+    ContractTokenShowSlots();
     MultiSigShowSlots();
+}
+
+void FunctionAdvanceWidget::ContractTokenShowSlots()
+{
+    ui->pushButton_issueAsset->setChecked(true);
+    ui->pushButton_multiSig->setChecked(false);
+    ui->pushButton_poundage->setChecked(false);
+    emit showContractTokenSignal();
 }
 
 void FunctionAdvanceWidget::PoundageShowSlots()
 {
     ui->pushButton_poundage->setChecked(true);
     ui->pushButton_multiSig->setChecked(false);
+    ui->pushButton_issueAsset->setChecked(false);
     emit showPoundageSignal();
 }
 
 void FunctionAdvanceWidget::MultiSigShowSlots()
 {
-    ui->pushButton_poundage->setChecked(false);
     ui->pushButton_multiSig->setChecked(true);
+    ui->pushButton_poundage->setChecked(false);
+    ui->pushButton_issueAsset->setChecked(false);
     emit showMultiSigSignal();
 }
 
@@ -45,8 +56,10 @@ void FunctionAdvanceWidget::InitWidget()
     InitStyle();
     ui->pushButton_poundage->setCheckable(true);
     ui->pushButton_multiSig->setCheckable(true);
+    ui->pushButton_issueAsset->setCheckable(true);
     connect(ui->pushButton_poundage,&QPushButton::clicked,this,&FunctionAdvanceWidget::PoundageShowSlots);
     connect(ui->pushButton_multiSig,&QPushButton::clicked,this,&FunctionAdvanceWidget::MultiSigShowSlots);
+    connect(ui->pushButton_issueAsset,&QPushButton::clicked,this,&FunctionAdvanceWidget::ContractTokenShowSlots);
 
     ui->pushButton_poundage->hide();
 }

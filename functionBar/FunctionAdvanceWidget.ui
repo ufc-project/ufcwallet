@@ -76,8 +76,8 @@ padding-left: 15px;</string>
   <widget class="QPushButton" name="pushButton_poundage">
    <property name="geometry">
     <rect>
-     <x>18</x>
-     <y>110</y>
+     <x>20</x>
+     <y>150</y>
      <width>112</width>
      <height>24</height>
     </rect>
@@ -96,6 +96,31 @@ padding-left: 15px;</string>
    </property>
    <property name="text">
     <string>手续费承兑单</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_issueAsset">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>112</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>112</width>
+     <height>24</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>120</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>一键发币</string>
    </property>
   </widget>
  </widget>
