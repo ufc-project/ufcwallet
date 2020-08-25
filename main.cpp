@@ -18,7 +18,7 @@
 
 #include "wallet.h"
 #include "frame.h"
-
+#include "log.h"
 
 #ifdef WIN32
 bool checkOnly()
@@ -178,13 +178,14 @@ int main(int argc, char *argv[])
 //    ::LoadLibrary(LPCWSTR(ssl.utf16()));
 
 #endif
-    logToFile(QStringList()<< "main");
+    QT_LOG::logInit(QString(argv[0]).split(QDir::separator()).last().remove(".exe") + ".log");
+    qDebug() << "main";
     QApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     qputenv("QT_AUTO_SCREEN_SCALE_FACTOR", "1");
 
     QApplication a(argc, argv);
 
-    logToFile(QStringList()<<QDir::currentPath()<<QCoreApplication::applicationDirPath()<<QCoreApplication::applicationFilePath());
+    qDebug() << QDir::currentPath() << QCoreApplication::applicationDirPath() << QCoreApplication::applicationFilePath();
 
 #ifdef TARGET_OS_MAC
     QDir::setCurrent( QCoreApplication::applicationDirPath());

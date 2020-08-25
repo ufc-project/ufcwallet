@@ -93,7 +93,7 @@ HXChain::HXChain()
         configFile->setValue("/settings/closeToMinimize",false);
         resyncNextTime = false;
         configFile->setValue("settings/resyncNextTime",false);
-        contractFee = 1;
+        contractFee = 1000;
         configFile->setValue("settings/contractFee",1);
         middlewarePath = MIDDLE_DEFAULT_URL;
         configFile->setValue("settings/middlewarePath",middlewarePath);
