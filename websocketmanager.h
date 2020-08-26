@@ -1,4 +1,4 @@
-#ifndef WEBSOCKETMANAGER_H
+﻿#ifndef WEBSOCKETMANAGER_H
 #define WEBSOCKETMANAGER_H
 
 #include <QThread>

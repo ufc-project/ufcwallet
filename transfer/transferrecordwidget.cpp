@@ -1,4 +1,4 @@
-#include "transferrecordwidget.h"
+﻿#include "transferrecordwidget.h"
 #include "ui_transferrecordwidget.h"
 
 #include "wallet.h"

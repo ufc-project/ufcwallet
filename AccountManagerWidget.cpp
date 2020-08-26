@@ -1,4 +1,4 @@
-#include "AccountManagerWidget.h"
+﻿#include "AccountManagerWidget.h"
 #include "ui_AccountManagerWidget.h"
 
 #include "poundage/PageScrollWidget.h"

@@ -1,4 +1,4 @@
-#include "transactiondb.h"
+﻿#include "transactiondb.h"
 
 #include "wallet.h"
 

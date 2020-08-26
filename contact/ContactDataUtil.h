@@ -1,4 +1,4 @@
-#ifndef CONTACTDATAUTIL_H
+﻿#ifndef CONTACTDATAUTIL_H
 #define CONTACTDATAUTIL_H
 
 #include <QString>

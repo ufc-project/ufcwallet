@@ -1,4 +1,4 @@
-#ifndef FRAME_H
+﻿#ifndef FRAME_H
 #define FRAME_H
 #include <QFrame>
 #include <QWidget>
@@ -10,10 +10,6 @@
 #endif
 
 #include "extra/HttpManager.h"
-
-//namespace Ui {
-//   class Frame;
-//}
 
 class FirstLogin;
 class NormalLogin;
@@ -219,8 +215,8 @@ private:
 
     ExitingWidget* exitingWidget = NULL;
 
-private:
-    void paintEvent(QPaintEvent* e);
+//private:
+//    void paintEvent(QPaintEvent* e);
 private slots:
     void EnlargeRightPart();
     void RestoreRightPart();

@@ -1,4 +1,4 @@
-#ifndef CONTACTTREEWIDGET_H
+﻿#ifndef CONTACTTREEWIDGET_H
 #define CONTACTTREEWIDGET_H
 
 #include <memory>
@@ -48,7 +48,7 @@ private:
     bool editGroup(QTreeWidgetItem *topItem);
     bool delGroup(QTreeWidgetItem *topItem);
 
-    void addPerson(const std::shared_ptr<ContactPerson> &person = nullptr,QTreeWidgetItem *groupItem = nullptr);
+//    void addPerson(const std::shared_ptr<ContactPerson> &person = nullptr,QTreeWidgetItem *groupItem = nullptr);
     bool editPerson(QTreeWidgetItem *personItem);
     void delPerson(QTreeWidgetItem *personItem);
 

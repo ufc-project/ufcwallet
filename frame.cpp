@@ -2529,8 +2529,8 @@ void Frame::init()
 }
 
 
-void Frame::paintEvent(QPaintEvent *e)
-{
+//void Frame::paintEvent(QPaintEvent *e)
+//{
 
 //        QStyleOption opt;
 
@@ -2539,7 +2539,7 @@ void Frame::paintEvent(QPaintEvent *e)
 //        style()->drawPrimitive(QStyle::PE_Widget, &opt, &p, this);
 //        QWidget::paintEvent(e);
 
-}
+//}
 
 void Frame::EnlargeRightPart()
 {

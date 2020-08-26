@@ -1,4 +1,4 @@
-#ifndef POUNDAGEDATAUTIL_H
+﻿#ifndef POUNDAGEDATAUTIL_H
 #define POUNDAGEDATAUTIL_H
 
 #include <memory>

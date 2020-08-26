@@ -1,4 +1,4 @@
-#include "PublishPoundageWidget.h"
+﻿#include "PublishPoundageWidget.h"
 #include "ui_PublishPoundageWidget.h"
 
 #include <QDateTime>

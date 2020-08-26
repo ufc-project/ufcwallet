@@ -1,4 +1,4 @@
-#include "contractbalancewidget.h"
+﻿#include "contractbalancewidget.h"
 #include "ui_contractbalancewidget.h"
 
 #include "wallet.h"

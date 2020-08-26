@@ -1,4 +1,4 @@
-#include "ContactTreeWidget.h"
+﻿#include "ContactTreeWidget.h"
 #include "ui_ContactTreeWidget.h"
 
 #include <QScrollBar>
@@ -188,10 +188,10 @@ bool ContactTreeWidget::delGroup(QTreeWidgetItem *topItem)
     return true;
 }
 
-void ContactTreeWidget::addPerson(const std::shared_ptr<ContactPerson> &person,QTreeWidgetItem *groupItem)
-{
+//void ContactTreeWidget::addPerson(const std::shared_ptr<ContactPerson> &person,QTreeWidgetItem *groupItem)
+//{
 
-}
+//}
 
 bool ContactTreeWidget::editPerson(QTreeWidgetItem *personItem)
 {

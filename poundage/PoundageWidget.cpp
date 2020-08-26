@@ -1,4 +1,4 @@
-#include "PoundageWidget.h"
+﻿#include "PoundageWidget.h"
 #include "ui_PoundageWidget.h"
 
 #include <mutex>

@@ -1,4 +1,4 @@
-#ifndef CONTACTADDWIDGET_H
+﻿#ifndef CONTACTADDWIDGET_H
 #define CONTACTADDWIDGET_H
 
 #include <memory>

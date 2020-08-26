@@ -1,4 +1,4 @@
-#ifndef CONTACTWIDGET_H
+﻿#ifndef CONTACTWIDGET_H
 #define CONTACTWIDGET_H
 
 #include <QWidget>

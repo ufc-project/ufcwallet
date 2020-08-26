@@ -1,4 +1,4 @@
-#include "UpdateNetWork.h"
+﻿#include "UpdateNetWork.h"
 
 #include <QNetworkReply>
 #include <QNetworkAccessManager>

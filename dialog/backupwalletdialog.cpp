@@ -1,4 +1,4 @@
-#include "backupwalletdialog.h"
+﻿#include "backupwalletdialog.h"
 #include "ui_backupwalletdialog.h"
 
 #include "wallet.h"

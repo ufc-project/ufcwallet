@@ -1,4 +1,4 @@
-#include "exportsetpwddialog.h"
+﻿#include "exportsetpwddialog.h"
 #include "ui_exportsetpwddialog.h"
 
 #include <QDebug>

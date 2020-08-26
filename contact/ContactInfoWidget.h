@@ -1,4 +1,4 @@
-#ifndef CONTACTINFOWIDGET_H
+﻿#ifndef CONTACTINFOWIDGET_H
 #define CONTACTINFOWIDGET_H
 
 #include <memory>

@@ -1,4 +1,4 @@
-#include "UpdateProcess.h"
+﻿#include "UpdateProcess.h"
 
 #include <QJsonDocument>
 #include <QJsonObject>

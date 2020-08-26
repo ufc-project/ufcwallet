@@ -1,4 +1,4 @@
-#include "HelpWidget.h"
+﻿#include "HelpWidget.h"
 #include "ui_HelpWidget.h"
 
 #include <QPainter>

@@ -1,4 +1,4 @@
-#include "AutoUpdateNotify.h"
+﻿#include "AutoUpdateNotify.h"
 
 #include <QTimer>
 #include "update/UpdateProcess.h"

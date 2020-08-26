@@ -1,4 +1,4 @@
-#ifndef GeneralComboBoxDelegate_h__
+﻿#ifndef GeneralComboBoxDelegate_h__
 #define GeneralComboBoxDelegate_h__
 
 #include <QStyledItemDelegate>

@@ -1,4 +1,4 @@
-#include "crosscapitalmark.h"
+﻿#include "crosscapitalmark.h"
 
 #include <atomic>
 #include <memory>

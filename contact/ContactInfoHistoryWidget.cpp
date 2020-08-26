@@ -1,4 +1,4 @@
-#include "ContactInfoHistoryWidget.h"
+﻿#include "ContactInfoHistoryWidget.h"
 #include "ui_ContactInfoHistoryWidget.h"
 
 #include "wallet.h"

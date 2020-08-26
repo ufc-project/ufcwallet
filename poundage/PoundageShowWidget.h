@@ -1,4 +1,4 @@
-#ifndef POUNDAGESHOWWIDGET_H
+﻿#ifndef POUNDAGESHOWWIDGET_H
 #define POUNDAGESHOWWIDGET_H
 
 #include <memory>

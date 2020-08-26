@@ -1,4 +1,4 @@
-#ifndef POUNDAGEWIDGET_H
+﻿#ifndef POUNDAGEWIDGET_H
 #define POUNDAGEWIDGET_H
 
 #include <QWidget>

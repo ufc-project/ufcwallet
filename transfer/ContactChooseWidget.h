@@ -1,4 +1,4 @@
-#ifndef CONTACTCHOOSEWIDGET_H
+﻿#ifndef CONTACTCHOOSEWIDGET_H
 #define CONTACTCHOOSEWIDGET_H
 
 #include <QWidget>

@@ -1,4 +1,4 @@
-#include "exportdialog.h"
+﻿#include "exportdialog.h"
 #include "ui_exportdialog.h"
 #include "wallet.h"
 #include "commondialog.h"

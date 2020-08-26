@@ -1,4 +1,4 @@
-#ifndef UPDATEPROGRESSUTIL_H
+﻿#ifndef UPDATEPROGRESSUTIL_H
 #define UPDATEPROGRESSUTIL_H
 
 #include <QString>

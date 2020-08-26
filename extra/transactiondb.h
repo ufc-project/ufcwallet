@@ -1,4 +1,4 @@
-#ifndef TransactionDB_H
+﻿#ifndef TransactionDB_H
 #define TransactionDB_H
 
 #include <QObject>

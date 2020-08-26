@@ -1,4 +1,4 @@
-#include "LogToFile.h"
+﻿#include "LogToFile.h"
 #include "wallet.h"
 
 

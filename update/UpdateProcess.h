@@ -1,4 +1,4 @@
-#ifndef UPDATEPROCESS_H
+﻿#ifndef UPDATEPROCESS_H
 #define UPDATEPROCESS_H
 
 #include <QObject>

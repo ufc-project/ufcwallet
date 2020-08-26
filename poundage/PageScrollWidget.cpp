@@ -1,4 +1,4 @@
-#include "PageScrollWidget.h"
+﻿#include "PageScrollWidget.h"
 #include "ui_PageScrollWidget.h"
 
 #include <QIntValidator>

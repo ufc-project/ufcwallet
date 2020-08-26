@@ -1,4 +1,4 @@
-#ifndef HELPWIDGET_H
+﻿#ifndef HELPWIDGET_H
 #define HELPWIDGET_H
 
 #include <QWidget>

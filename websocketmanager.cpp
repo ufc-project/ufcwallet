@@ -1,4 +1,4 @@
-#include "websocketmanager.h"
+﻿#include "websocketmanager.h"
 
 #include "wallet.h"
 

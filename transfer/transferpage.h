@@ -1,4 +1,4 @@
-#ifndef TRANSFERPAGE_H
+﻿#ifndef TRANSFERPAGE_H
 #define TRANSFERPAGE_H
 
 #include <QWidget>

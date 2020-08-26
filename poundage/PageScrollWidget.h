@@ -1,4 +1,4 @@
-#ifndef PAGESCROLLWIDGET_H
+﻿#ifndef PAGESCROLLWIDGET_H
 #define PAGESCROLLWIDGET_H
 
 #include <QWidget>

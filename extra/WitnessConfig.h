@@ -1,4 +1,4 @@
-#ifndef WITNESSCONFIG_H
+﻿#ifndef WITNESSCONFIG_H
 #define WITNESSCONFIG_H
 
 #include <QObject>

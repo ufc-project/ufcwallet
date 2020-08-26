@@ -1,4 +1,4 @@
-#ifndef FEECHOOSEWIDGET_H
+﻿#ifndef FEECHOOSEWIDGET_H
 #define FEECHOOSEWIDGET_H
 
 #include <memory>

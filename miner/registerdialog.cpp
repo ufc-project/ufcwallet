@@ -1,4 +1,4 @@
-#include "registerdialog.h"
+﻿#include "registerdialog.h"
 #include "ui_registerdialog.h"
 
 #include "wallet.h"

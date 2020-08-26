@@ -1,4 +1,4 @@
-#include "waitingforsync.h"
+﻿#include "waitingforsync.h"
 #include "ui_waitingforsync.h"
 #include "wallet.h"
 

@@ -1,4 +1,4 @@
-#include "consoledialog.h"
+﻿#include "consoledialog.h"
 #include "ui_consoledialog.h"
 #include "wallet.h"
 
