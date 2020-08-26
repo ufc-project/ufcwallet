@@ -200,8 +200,8 @@ struct ProposalInfo
     int proposalOperationType = -1;
 };
 
-struct TransactionStruct
-{
+class TransactionStruct {
+public:
     QString transactionId;
     int     type = -1;
     int     blockNum = -1;
@@ -212,13 +212,12 @@ struct TransactionStruct
     QString trxState;   // 如果是跨链(61)的交易 查询状态
 
 public:
-
     friend QDataStream& operator >>(QDataStream &in,TransactionStruct& data);
     friend QDataStream& operator <<(QDataStream &out,const TransactionStruct& data);
 };
 
-struct TransactionTypeId
-{
+class TransactionTypeId {
+public:
     int type = -2;
     QString transactionId;
 
@@ -232,8 +231,8 @@ public:
     friend QDataStream& operator <<(QDataStream &out,const TransactionTypeId& data);
 };
 
-struct GuaranteeOrder
-{
+class GuaranteeOrder {
+public:
     QString id;
     QString ownerAddress;
     QString chainType;
@@ -254,8 +253,8 @@ public:
     friend QDataStream& operator <<(QDataStream &out,const GuaranteeOrder& data);
 };
 
-struct ContractInvokeObject
-{
+class ContractInvokeObject {
+public:
     QString id;
     QString trxId;
     QString invoker;

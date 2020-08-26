@@ -192,9 +192,6 @@ int main(int argc, char *argv[])
 #endif
 //    SetUnhandledExceptionFilter(TopLevelExceptionFilter);
 
-//    QTranslator translator;
-//    translator.load(QString(":/qm/qt_zh_cn"));
-//    a.installTranslator(&translator);
     HXChain::getInstance();  // 在frame创建前先创建实例，读取language
     qDebug() <<  "db init: " << HXChain::getInstance()->transactionDB.init();
 //    HXChain::getInstance()->witnessConfig->append("trackaddress", "axiba",  true);

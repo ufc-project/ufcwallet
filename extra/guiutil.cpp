@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2016 The Bitcoin Core developers
+﻿// Copyright (c) 2011-2016 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -60,25 +60,19 @@ QString getFileMd5(const QString &sourceFilePath) {
     return QString();
 }
 
-void checkAndLogMd5(const QString &nodePath,const QString &nodeMd5,const QString &clientPath,const QString &clientMd5){
+void checkAndLogMd5(const QString &nodePath,const QString &nodeMd5,const QString &clientPath,const QString &clientMd5) {
     //获取当前后台的md5，对比发布的md5，写入log文件
     QString node_md5 = getFileMd5(nodePath);
     QString client_md5 = getFileMd5(clientPath);
-    if(node_md5 != nodeMd5)
-    {
-        logToFile( QStringList() <<"WARNING: node md5 mismatching. current:"<<node_md5<<" standard:"<<nodeMd5);
+    if(node_md5 != nodeMd5) {
+        qWarning() << "WARNING: node md5 mismatching. current:" << node_md5 << " standard:" << nodeMd5;
+    } else {
+        qDebug() << "LOG: node md5 matched:" << node_md5;
     }
-    else
-    {
-        logToFile( QStringList() <<"LOG: node md5 matched:"<<node_md5);
-    }
-    if(client_md5 != clientMd5)
-    {
-        logToFile( QStringList() <<"WARNING: client md5 mismatching. current:"<<client_md5<<" standard:"<<clientMd5);
-    }
-    else
-    {
-        logToFile( QStringList() <<"LOG: client md5 matched:"<<client_md5);
+    if(client_md5 != clientMd5) {
+        qWarning() << "WARNING: client md5 mismatching. current:" << client_md5 << " standard:" << clientMd5;
+    } else {
+        qDebug() << "LOG: client md5 matched:" << client_md5;
     }
 }
 

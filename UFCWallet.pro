@@ -11,6 +11,7 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets printsupport
 TEMPLATE = app
 
 DEFINES += TEST_WALLET
+# DEFINES += QT_MESSAGELOGCONTEXT
 
 
 if(contains(DEFINES,TEST_WALLET)){
@@ -364,7 +365,8 @@ HEADERS  += firstlogin.h \
     capitalTransferPage/PasswordConfirmWidget.h \
     guard/IssueAssetPage.h \
     guard/CreateAssetDialog.h \
-    guard/IssueAssetDialog.h
+    guard/IssueAssetDialog.h \
+    log.h
 
 FORMS    += firstlogin.ui \
     normallogin.ui \

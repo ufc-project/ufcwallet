@@ -237,12 +237,10 @@ void HXChain::onNodeExeStateChanged()
     if(nodeProc->state() == QProcess::Starting)
     {
         qDebug() << QString("%1 is starting").arg(NODE_PROC_NAME);
-        logToFile( QStringList() << QString("%1 is starting").arg(NODE_PROC_NAME));
     }
     else if(nodeProc->state() == QProcess::Running)
     {
         qDebug() << QString("%1 is running").arg(NODE_PROC_NAME);
-        logToFile( QStringList() << QString("%1 is running").arg(NODE_PROC_NAME));
 
         connect(&timerForStartExe,SIGNAL(timeout()),this,SLOT(checkNodeExeIsReady()));
         timerForStartExe.start(1000);

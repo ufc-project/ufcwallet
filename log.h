@@ -12,7 +12,7 @@ namespace QT_LOG
     static QString m_LogFile = QString("%1.log").arg(QDateTime::currentDateTime().toString("yyyyMMddhhmmss"));
     QMutex m_LogMutex;
 
-    void customMessageHandler(QtMsgType type, const QMessageLogContext &context, const QString &msg /*char *msg*/)
+    void customMessageHandler(QtMsgType type, const QMessageLogContext &context, const QString &msg)
     {
         if (type < m_LogLevel)
         {
@@ -47,9 +47,14 @@ namespace QT_LOG
         m_LogMutex.unlock();
     }
 
-    void logInit(QString logFile = "",int logLevel = 0)
+    void logInit(QString logFile = "", int logLevel = 0)
     {
+#ifdef QT_DEBUG
         m_LogLevel = logLevel;
+#else
+        if (logLevel < QtWarningMsg)
+            m_LogLevel = QtWarningMsg;
+#endif
         if (!logFile.isEmpty())
         {
             m_LogFile = logFile;
